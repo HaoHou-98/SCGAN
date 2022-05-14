@@ -6,8 +6,8 @@ from torchvision import transforms, utils
 import torch.nn.functional as nnF
 import torch
 
-High_Data = ["./data_train/HIGH"]
-Low_Data = ["./data_train/LOW"]
+High_Data = ["./imgs_train/HIGH"]
+Low_Data = ["./imgs_train/LOW"]
 
 class faces_data(Dataset):
     def __init__(self, data_hr, data_lr):
