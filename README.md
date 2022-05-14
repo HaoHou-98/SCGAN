@@ -38,7 +38,7 @@ The prepared test set and trainning set can be directly downloaded [here](https:
 
 The pre-trained model can be directly downloaded [here](https://drive.google.com/file/d/1BeIhDoeLyvIkJQuzFtIvNIBD0VTzgDjd/view?usp=sharing). After unzipping, put the `pretrained_model` folder in the root directory.
 
-## Super-resolving Images Using Pretrained Models
+## Super-resolving Images Using Pretrained Model
 
 Once the dataset and the pre-trained model are prepared, the results be got using pretrained models.
 
