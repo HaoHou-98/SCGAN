@@ -43,7 +43,7 @@ The prepared test set and trainning set can be directly downloaded [here](https:
 Once the dataset is prepared, the results be got using pretrained models.
 
 
-1. Inference
+1. Inference.
 
     ```
     python test.py
