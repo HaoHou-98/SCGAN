@@ -10,14 +10,11 @@
 We establish two independent degradation branches in the forward and backward cycle-consistent reconstruction processes, respectively, while the two processes share the same restoration branch. Our Semi-Cycled Generative Adversarial Networks (SCGAN) is able to alleviate the adverse effects of the domain gap between the real-world LR face images and the synthetic LR ones, and to achieve accurate and robust face SR performance by the shared restoration branch regularized by both the forward and backward cycle-consistent learning processes.
 
 > **Semi-Cycled Generative Adversarial Networks for Real-World Face Super-Resolution** <br>
-> H Hou, X Hu, J Xu, Y Hou, B Wei, D Shen <br>
+> [H Hou](https://scholar.google.com/citations?user=KuStHcwAAAAJ&hl=zh-CN), X Hu, [J Xu](https://scholar.google.com/citations?user=O6TnZ9EAAAAJ&hl=zh-CN), [Y Hou](https://scholar.google.com/citations?user=idqA4UcAAAAJ&hl=zh-CN), B Wei, [D Shen](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN) <br>
 > **arXiv preprint arXiv:2205.03777**
-
 
 [[Paper](https://arxiv.org/pdf/2205.03777.pdf)]
 [[Project Page](https://github.com/HaoHou-98/SCGAN)]
-
-
 
 ## Installation
 
@@ -35,12 +32,15 @@ pip install -r requirements.txt
 
 ## Dataset Preparation
 
-The prepared test set and trainning set can be directly downloaded [here](https://drive.google.com/file/d/1BeIhDoeLyvIkJQuzFtIvNIBD0VTzgDjd/view?usp=sharing). After unzipping, put the `imgs_test`, `imgs_train` and `imgs_reference` folders in the root directory.
+The prepared test set and trainning set can be directly downloaded [here](https://drive.google.com/file/d/12FURoPwr6G1j3DOOsgIYQSnXxg8mR0qU/view?usp=sharing). After unzipping, put the `imgs_test`, `imgs_train` and `imgs_reference` folders in the root directory.
 
+## Pre-trained Model Preparation
+
+The pre-trained model can be directly downloaded [here](https://drive.google.com/file/d/1BeIhDoeLyvIkJQuzFtIvNIBD0VTzgDjd/view?usp=sharing). After unzipping, put the `pretrained_model` folder in the root directory.
 
 ## Super-resolving Images Using Pretrained Models
 
-Once the dataset is prepared, the results be got using pretrained models.
+Once the dataset and the pre-trained model are prepared, the results be got using pretrained models.
 
 
 1. Inference.
