@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ## Dataset Preparation
 
-The prepared test set and trainning set can be directly downloaded [here](https://drive.google.com/file/d/1BeIhDoeLyvIkJQuzFtIvNIBD0VTzgDjd/view?usp=sharing). After unzipping, put the `imgs_test`, `imgs_train` and `reference` folders in the root directory.
+The prepared test set and trainning set can be directly downloaded [here](https://drive.google.com/file/d/1BeIhDoeLyvIkJQuzFtIvNIBD0VTzgDjd/view?usp=sharing). After unzipping, put the `imgs_test`, `imgs_train` and `imgs_reference` folders in the root directory.
 
 
 ## Super-resolving Images Using Pretrained Models
