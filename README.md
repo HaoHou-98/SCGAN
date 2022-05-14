@@ -59,7 +59,7 @@ Once the dataset is prepared, the results be got using pretrained models.
 
 ## Training New Models
 
-To train the new model, you need to put your own high-resolution and low-resolution face images into `./data_train/HIGH` and `./data_train/LOW`, respectively, and then
+To train the new model, you need to put your own high-resolution and low-resolution face images into `./imgs_train/HIGH` and `./imgs_train/LOW`, respectively, and then
 ```bash
 python train.py
 ```
