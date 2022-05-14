@@ -40,7 +40,7 @@ The pre-trained model can be directly downloaded [here](https://drive.google.com
 
 ## Super-resolving Images Using Pretrained Model
 
-Once the dataset and the pre-trained model are prepared, the results be got using pretrained models.
+Once the dataset and the pre-trained model are prepared, the results be got using pretrained model.
 
 
 1. Inference.
