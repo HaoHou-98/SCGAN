@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ## Dataset Preparation
 
-The prepared test set and trainning set can be directly downloaded [here](https://drive.google.com/file/d/12FURoPwr6G1j3DOOsgIYQSnXxg8mR0qU/view?usp=sharing). After unzipping, put the `imgs_test`, `imgs_train` and `imgs_reference` folders in the root directory.
+The prepared test set and trainning set can be directly downloaded [here](https://drive.google.com/file/d/12FURoPwr6G1j3DOOsgIYQSnXxg8mR0qU/view?usp=sharing). After unzipping, put the `imgs_test` and `imgs_train` folders in the root directory.
 
 ## Pre-trained Model Preparation
 
