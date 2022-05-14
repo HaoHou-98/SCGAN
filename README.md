@@ -4,7 +4,7 @@
 ![pytorch 1.11.0](https://img.shields.io/badge/pytorch-1.11.0-green.svg?style=plastic)
 
 
-![image](./docs/Frame.png)
+![image](./docs/)
 **Figure:** *Architecture of the Semi-Cycled Generative Adversarial Network (SCGAN) for unsupervised face super resolution.*
 
 We establish two independent degradation branches in the forward and backward cycle-consistent reconstruction processes, respectively, while the two processes share the same restoration branch. Our Semi-Cycled Generative Adversarial Networks (SCGAN) is able to alleviate the adverse effects of the domain gap between the real-world LR face images and the synthetic LR ones, and to achieve accurate and robust face SR performance by the shared restoration branch regularized by both the forward and backward cycle-consistent learning processes.
