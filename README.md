@@ -50,12 +50,6 @@ Once the dataset is prepared, the results be got using pretrained models.
     ```
 
 2. The results are saved at `./test_results/`.
-3. Caculate the FID score of the results with the reference images.
-
-	```bash
-    python FID.py
-    ```
-
 
 ## Training New Models
 
