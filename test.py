@@ -32,7 +32,7 @@ def main():
     test_loader = get_loader(data_name, opt.batchsize)
     net_G_RLS = G_RLS()
     net_G_RLS = net_G_RLS.cuda()
-    a = torch.load('./pretrained_model/pretrained_model.pth')["G_RLS"]
+    a = torch.load('./pretrained_model/pretrained_model.pth')["G_h2l"]
     net_G_RLS.load_state_dict(a)
     net_G_RLS = net_G_RLS.eval()
     test_save = './test_results'
