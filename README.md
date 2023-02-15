@@ -71,14 +71,12 @@ Will be released soon.
 ## Citation
 If you use this code for your research, please cite our papers.
 ```
-@ARTICLE{10036448,
+@article{hou2023semi,
+  title={Semi-cycled generative adversarial networks for real-world face super-resolution},
   author={Hou, Hao and Xu, Jun and Hou, Yingkun and Hu, Xiaotao and Wei, Benzheng and Shen, Dinggang},
-  journal={IEEE Transactions on Image Processing}, 
-  title={Semi-Cycled Generative Adversarial Networks for Real-World Face Super-Resolution}, 
+  journal={IEEE Transactions on Image Processing},
   year={2023},
-  volume={32},
-  number={},
-  pages={1184-1199},
-  doi={10.1109/TIP.2023.3240845}}
+  publisher={IEEE}
+}
 ```
 The code is released for academic research use only.
