@@ -10,10 +10,11 @@
 We establish two independent degradation branches in the forward and backward cycle-consistent reconstruction processes, respectively, while the two processes share the same restoration branch. Our Semi-Cycled Generative Adversarial Networks (SCGAN) is able to alleviate the adverse effects of the domain gap between the real-world LR face images and the synthetic LR ones, and to achieve accurate and robust face SR performance by the shared restoration branch regularized by both the forward and backward cycle-consistent learning processes.
 
 > **Semi-Cycled Generative Adversarial Networks for Real-World Face Super-Resolution** <br>
-> [H Hou](https://scholar.google.com/citations?user=KuStHcwAAAAJ&hl=zh-CN), X Hu, [J Xu](https://scholar.google.com/citations?user=O6TnZ9EAAAAJ&hl=zh-CN), [Y Hou](https://scholar.google.com/citations?user=idqA4UcAAAAJ&hl=zh-CN), B Wei, [D Shen](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN) <br>
-> **arXiv preprint arXiv:2205.03777**
+> [H Hou](https://scholar.google.com/citations?user=KuStHcwAAAAJ&hl=zh-CN), [J Xu](https://scholar.google.com/citations?user=O6TnZ9EAAAAJ&hl=zh-CN), [Y Hou](https://scholar.google.com/citations?user=idqA4UcAAAAJ&hl=zh-CN), X Hu, B Wei, [D Shen](https://scholar.google.com/citations?user=v6VYQC8AAAAJ&hl=zh-CN) <br>
+> **IEEE Transactions on Image Processing**
 
-[[Paper](https://arxiv.org/pdf/2205.03777.pdf)]
+[[Arxiv](https://arxiv.org/pdf/2205.03777.pdf)]
+[[Paper](https://ieeexplore.ieee.org/abstract/document/10036448)]
 [[Project Page](https://github.com/HaoHou-98/SCGAN)]
 
 ## Installation
@@ -70,11 +71,14 @@ Will be released soon.
 ## Citation
 If you use this code for your research, please cite our papers.
 ```
-@article{hou2022semi,
-  title={Semi-Cycled Generative Adversarial Networks for Real-World Face Super-Resolution},
-  author={Hou, Hao and Hu, Xiaotao and Xu, Jun and Hou, Yingkun and Wei, Benzheng and Shen, Dinggang},
-  journal={arXiv preprint arXiv:2205.03777},
-  year={2022}
-}
+@ARTICLE{10036448,
+  author={Hou, Hao and Xu, Jun and Hou, Yingkun and Hu, Xiaotao and Wei, Benzheng and Shen, Dinggang},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Semi-Cycled Generative Adversarial Networks for Real-World Face Super-Resolution}, 
+  year={2023},
+  volume={32},
+  number={},
+  pages={1184-1199},
+  doi={10.1109/TIP.2023.3240845}}
 ```
 The code is released for academic research use only.
